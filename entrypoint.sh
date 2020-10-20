@@ -1,7 +1,7 @@
 #!/bin/sh
 cd /app
 mkdir wwwroot
-git clone https://github.com/byxiaopeng/now-proxy
+git clone https://github.com/waxll/proxy
 mv now-proxy/* /app/wwwroot
 rm -rf /app/now-proxy
 cd /app
